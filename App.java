@@ -20,16 +20,16 @@ public class App {
 			
 			Pencil pencil = new Pencil();
 			
-			pencil.setPencilName("Palmiye");
+			pencil.setPencilName("Kyle");
 			
 			Pencil pencil2 = new Pencil();
 			
-			pencil2.setPencilName("Jener");
+			pencil2.setPencilName("Jenner");
 			pencil.setStudent(student);
 			pencil2.setStudent(student);
 			
 			student.setMarks(22);
-			student.setName("Jacobo");
+			student.setName("GoldenBoy");
 			student.getPencil().add(pencil);
 			student.getPencil().add(pencil2);
 			
